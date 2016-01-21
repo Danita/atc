@@ -1,108 +1,185 @@
 {
-  "name": "San Francisco International Airport",
-  "level": "hard",
+  "name": "San Francisco International Airport &#9983",
+  "level": "medium",
   "radio": "San Francisco",
   "icao": "KSFO",
+  "iata": "SFO",
+  "magnetic_north": 13.7,
+  "ctr_radius": 80,
+  "position": ["N37.6195", "W122.3738333"],
+  "rr_radius_nm": 5.0,
+  "rr_center": ["N37.6195", "W122.3738333"],
+  "has_terrain": true,
   "wind": {
-    "angle": 270,
-    "speed": 8
+    "angle": 310,
+    "speed": 5
   },
-  "fixes":{
-    "GOODY": [ -1.5,       -20     ]
+  "fixes": {
+    "BERKS": ["N37.860861", "W122.211678"],
+    "NEPIC": ["N37.585894", "W122.296883"],
+    "FAITH": ["N37.40121667", "W121.8619"],
+    "DIVEC": ["N37.432883", "W121.935008"],
+    "PONKE": ["N37.458817", "W121.996053"],
+    "WETOR": ["N37.484719", "W122.057142"],
+    "ROKME": ["N37.510592", "W122.118275"],
+    "CEPIN": ["N37.536",   "W122.17283" ],
+    "AXMUL": ["N37.571517", "W122.257208"],
+    "DUMBA": ["N37.5035167", "W122.0961472"],
+    "MEHTA": ["N37.461692", "W121.996525" ],
+    "MENLO": ["N37.46367",  "W122.15367" ],
+    "SWELS": ["N37.3681556","W122.1160806"],
+    "EDDYY": ["N37.32645", "W122.0997083"],
+    "EPICK": ["N36.9508222", "W121.9526722"],
+    "MOVDD": ["N37.661333", "W121.4481667"],
+    "RISTI": ["N37.60817", "W121.53333"],
+    "CEDES": ["N37.55083", "W121.6246667"],
+    "FRELY": ["N37.510575", "W121.7931528"],
+    "ARCHI": ["N37.4908333", "W121.8755"],
+    "BOLDR": ["N37.170833", "W122.0761667"],
+    "SKUNK": ["N37.007594", "W122.033228"],
+    "PYE":   ["N38.0798333", "W122.8678333"],
+    "DUXBY": ["N37.6958333", "W122.4553333"],
+    "HADLY": ["N37.402358", "W122.575592"],
+    "OSI":   ["N37.3925", "W122.28133333"],
+    "TAILS": ["N37.272861", "W122.520369"],
+    "SAU":   ["N37.8553333", "W122.5228333"],
+    "BSR":   ["N36.1813333", "W121.6421667"],
+    "EUGEN": ["N37.093447", "W122.444214"],
+    "GROAN": ["N37.5903333", "W121.2851667"],
+    "LOCKE": ["N37.7135", "W121.5096666667"],
+    "UPEND": ["N38.032",  "W122.097"],
+    "STINS": ["N37.823667", "W122.7566667"],
+    "LOZIT": ["N37.899333", "W122.6731667"],
+    "SFO":   ["N37.6195", "W122.3738333"],
+
+    "SEPDY":   ["N37.685667", "W122.363667"],
+    "SENZY":   ["N37.666500", "W122.485167"],
+    "ZUPAX":   ["N37.254497", "W122.588508"],
+    "NORMM":   ["N37.720208", "W122.613172"],
+    "LUVVE":   ["N37.497367", "W122.231053"],
+    "WESLA":   ["N37.664372", "W122.480292"],
+    "MOLEN":   ["N37.997872", "W123.086797"],
+    "WAMMY":   ["N37.541064", "W122.724056"],
+    "SEGUL":   ["N36.963036", "W122.572131"],
+    "PORTE":   ["N37.489786", "W122.474578"],
+    "SASLY":   ["N37.678500", "W122.334500"],
+    "REBAS":   ["N37.940683", "W122.383667"],
+    "SASSU":   ["N38.367867", "W122.390483"]
   },
   "runways":[
     {
-      "name":        ["36R", "18L"],
-      "name_offset": [[0.8, 0], [0.2, 0]],
-      "position":    [0.8, 0],
-      "angle":       0,
-      "length":      6,
-      "delay":       [10, 30],
+      "name":        ["28R", "10L"],
+      "name_offset": [[0, 0.3], [0, 0.3]],
+      "oldposition":  [0, 0.229],
+      "end":    [ ["N37.6135324", "W122.3571410"], ["N37.6287386", "W122.3933911"]],
+      "length":      3.62,
+      "lateral_separaton": 300,
       "ils":         [true, false]
+    },
+    {
+      "name":        ["28L", "10R"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "oldposition":    [0, 0],
+      "end":    [["N37.6117091", "W122.3583420"], ["N37.6262900", "W122.3931054"]],
+      "length":      3.47,
+      "_note": "Lateral separation simulates visual approaches",
+      "lateral_separaton": 600,
+      "ils":         [true, false]
+    },
+    {
+      "name":        ["19L", "01R"],
+      "name_offset": [[0.3, -0.1], [0.4, 0]],
+      "oldposition":    [0.8, 0.3],
+      "end":    [["N37.6273412","W122.3671104" ], ["N37.6063291", "W122.3810404"] ],
+      "length":      2.64,
+      "ils":         [false, false]
+    },
+    {
+      "name":        ["19R", "01L"],
+      "name_offset": [[-0.3, 0], [-0.3, 0.1]],
+      "oldposition":    [0.4, 0.3],
+      "end":    [["N37.6264803", "W122.3706090"], ["N37.6078970","W122.3829280"]],
+      "length":      2.33,
+      "ils":         [false, false]
     }
   ],
   "departures": {
     "airlines": [
-      ["ual", 3],
-      ["baw", 5],
-      ["cessna", 4]
+      ["ual", 11],
+      ["baw", 9],
+      ["ups", 2]
     ],
-    "frequency": [1, 3]
+    "sids": {
+      "OFFSHORE": ["SEPDY", "SENZY", "WAMMY", "SEGUL"],
+      "EUGEN": ["SENZY", "ZUPAX", "EUGEN"],
+      "QUIET": ["SASLY", "REBAS", "SASSU"],
+      "MOLEN": ["WESLA", "STINS", "MOLEN"]
+    },
+    "destinations": [
+      290, 180, 160, 345
+    ],
+    "type": "random",
+    "offset": 0,
+    "frequency": 38
   },
   "arrivals": [
     {
-      "heading":   180,
+      "radial":   60,
+      "heading":  170,
+      "speed":    250,
+      "fixes":   ["MOVDD", "RISTI", "CEDES"],
       "airlines":  [
-        ["ual", 3],
+        ["ual", 1],
         ["baw", 1],
-        ["cessna", 2]
+        ["dal", 1],
+        ["aal", 1]
       ],
-      "frequency": [4, 6],
-      "altitude":  [4000, 6000]
+      "type": "wave",
+      "offset": 0,
+      "frequency": 12,
+      "altitude":  10000
     },
     {
-      "angle":     90,
-      "heading":   135,
+      "radial":   90,
+      "speed":    250,
+      "fixes":    ["FAITH"],
       "airlines":  [
         ["ual", 2],
         ["baw", 5],
         ["cessna", 1]
       ],
-      "frequency": [2, 4],
-      "altitude":  [6000, 8000]
+      "type": "random",
+      "offset": 5,
+      "frequency": 6,
+      "altitude":  10000
     },
     {
-      "angle":     270,
-      "heading":   45,
+      "radial":   145,
+      "speed":    250,
+      "fixes":    ["SKUNK", "BOLDR", "MENLO"],
       "airlines":  [
-        ["ual", 2],
-        ["baw", 5],
-        ["cessna", 20]
+        ["ual", 4],
+        ["baw", 3],
+        ["dal", 2],
+        ["aca", 1]
       ],
-      "frequency": [2, 4],
-      "altitude":  [5000, 7000]
+      "type": "wave",
+      "offset": 3,
+      "frequency": 12,
+      "altitude":  10000
     },
     {
-      "angle":     270,
-      "heading":   0,
-      "airlines":  [
-        ["ual", 5],
-        ["baw", 1],
-        ["cessna", 3]
-      ],
-      "frequency": [2, 4],
-      "altitude":  [5000, 8000]
-    },
-    {
-      "angle":     180,
-      "heading":   270,
-      "airlines":  [
-        ["cessna", 20]
-      ],
-      "frequency": [2, 5],
-      "altitude":  [3000, 5000]
-    },
-    {
-      "angle":     45,
-      "heading":   90,
-      "airlines":  [
-        ["ual", 10],
-        ["baw", 1],
-        ["cessna", 20]
-      ],
-      "frequency": [10, 15],
-      "altitude":  [7000, 9000]
-    },
-    {
-      "angle":     315,
-      "heading":   180,
+      "radial":   315,
+      "speed":    250,
+      "fixes":    ["PYE", "DUXBY", "SFO"],
       "airlines":  [
         ["ual", 10],
         ["baw", 10],
-        ["cessna", 1]
+        ["fastga", 1]
       ],
-      "frequency": [3, 5],
-      "altitude":  [6000, 7000]
+      "type": "random",
+      "frequency": 6,
+      "altitude":  10000
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Embraer Legacy 600",
+  "icao": "E135",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": 7,
+    "recat": "E"
+  },
+  "rate": {
+    "ascent":     2700,
+    "descent":    2500,
+    "accelerate": 10,
+    "decelerate": 6
+  },
+  "runway": {
+    "takeoff": 2.2,
+    "landing": 3.0
+  },
+  "speed":{
+    "min":     110,
+    "max":     400,
+    "landing": 100,
+    "cruise":  200
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

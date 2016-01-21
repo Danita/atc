@@ -1,0 +1,34 @@
+{
+  "name": "Tu-204-300",
+  "icao": "T204",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": null,
+    "recat": "D"
+  },
+  "rate": {
+    "ascent":     1800,
+    "descent":    2100,
+    "accelerate": 8,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 1.9,
+    "landing": 2.8
+  },
+  "speed":{
+    "min":     110,
+    "max":     250,
+    "landing": 125,
+    "cruise":  200
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "reference": "https://www.belgocontrol.be/opersite/eaip/eAIP_Main/html/eAIP/EB-AD-2.EBBR-en-GB.html",
+  "name": "Brussels-National",
+  "level": "easy",
+  "radio": "Brussels",
+  "icao": "EBBR",
+  "iata": "BRU",
+  "magnetic_north": 0,
+  "ctr_radius": 80,
+  "position": ["N0.0", "W0.0"],
+  "rr_radius_nm": 5.0,
+  "rr_center": ["N0.0", "W0.0"],
+  "has_terrain": false,
+  "wind": {
+    "angle": 230,
+    "speed": 6
+  },
+  "fixes": {
+    "LOB":[9.4,2.47],
+    "LOP":[7.63,4.47],
+    "LOZ":[-0.93,-8.4],
+    "IBX":[0.33,-2.64],
+    "IBL":[3.91,0.28],
+    "IBR":[2.11,1.67],
+    "HUL":[11.96,-16.57],
+    "BR006":[-11.44,-27.47],
+    "BR009":[-14.09,-14.22],
+    "BR010":[12.3,-10.9],
+    "BR011":[20.92,-13.23],
+    "BR012":[8.98,-13.45],
+    "BR013":[16.94,-21.92],
+    "BR014":[-6.49,-20.47],
+    "BR015":[-10.44,2.16],
+    "BR016":[-11.86,5.23],
+    "BR018":[-11.5,7.62],
+    "BR020":[-4.23,-11.73],
+    "BR030":[20.46,-11.77],
+    "BR045":[-8.71,-2.73],
+    "REMBA":[31.93,-25.59],
+    "PABLI":[33.26,-32.9]
+  },
+  "runways": [
+    {
+      "name": ["19", "01"],
+      "name_offset": [[0, 0], [0, 0]],
+      "position": [0.870, -0.215],
+      "angle": 194.43,
+      "length": 2.987,
+      "delay": [10, 30],
+      "ils": [true, true]
+    },
+    {
+      "name": ["25L", "07R"],
+      "name_offset": [[0, 0], [0, 0]],
+      "position": [1.343, -0.757],
+      "angle": 249.89,
+      "length": 3.221,
+      "delay": [40, 20],
+      "ils": [true, false]
+    },
+    {
+      "name": ["25R","07L"],
+      "name_offset": [[0.4, 0.4], [-0.2, 0]],
+      "position": [-0.376, 0.479],
+      "angle": 245.38,
+      "length": 3.638,
+      "delay": [10, 30],
+      "ils": [true, false]
+    }
+  ],
+  "departures": {
+    "airlines": [
+      ["ual", 3],
+      ["baw", 5],
+      ["cessna", 4]
+    ],
+    "destinations": [
+      50, 140, 235, 280, 345
+    ],
+    "frequency": [1, 3]
+  },
+  "arrivals":[
+    {
+      "radial": 250,
+      "heading": 80,
+      "airlines": [
+        ["ual", 2],
+        ["baw", 5],
+        ["fastga", 20]
+      ],
+      "frequency": [5, 10],
+      "altitude": [5000, 7000]
+    },
+    {
+      "radial": 110,
+      "heading": 280,
+      "airlines":[
+        ["ual", 5],
+        ["baw", 1],
+        ["fastga", 3]
+      ],
+      "frequency": [5, 10],
+      "altitude": [5000, 8000]
+    },
+    {
+      "radial": 210,
+      "heading": 30,
+      "speed": 120,
+      "airlines": [
+        ["lightga", 20]
+      ],
+      "frequency": [10, 20],
+      "altitude": [3000, 5000]
+    },
+    {
+      "radial": 315,
+      "heading": 135,
+      "airlines": [
+        ["ual", 10],
+        ["baw", 10],
+        ["fastga", 1]
+      ],
+      "frequency": [10, 15],
+      "altitude": [6000, 7000]
+    }
+  ]
+}

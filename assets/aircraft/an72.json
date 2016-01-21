@@ -1,0 +1,34 @@
+{
+  "name": "Antonov 72",
+  "icao": "AN72",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": null,
+    "recat": "E"
+  },
+  "rate": {
+    "ascent":     2100,
+    "descent":    1800,
+    "accelerate": 8,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 1.8,
+    "landing": 2.0
+  },
+  "speed":{
+    "min":     130,
+    "max":     249,
+    "landing": 140,
+    "cruise":  250
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

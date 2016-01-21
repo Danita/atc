@@ -1,0 +1,34 @@
+{
+  "name": "Beechcraft Bonanza",
+  "icao": "BE36",
+  "engines": {
+    "number": 1,
+    "type": "P"
+  },
+  "weightclass": "S",
+  "category": {
+    "srs": 1,
+    "lahso": 2,
+    "recat": "F"
+  },
+  "rate": {
+    "ascent":     1230,
+    "descent":    2000,
+    "accelerate": 4,
+    "decelerate": 3
+  },
+  "runway": {
+    "takeoff": 0.620,
+    "landing": 0.440
+  },
+  "speed":{
+    "min":     60,
+    "max":     179,
+    "landing": 80,
+    "cruise":  168
+  },
+  "capability": {
+    "ils": false,
+    "fix": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Antonov 12",
+  "icao": "AN12",
+  "engines": {
+    "number": 4,
+    "type": "T"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": null,
+    "recat": "D"
+  },
+  "rate": {
+    "ascent":     1960,
+    "descent":    2200,
+    "accelerate": 5,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 1.7,
+    "landing": 1.5
+  },
+  "speed":{
+    "min":     115,
+    "max":     249,
+    "landing": 130,
+    "cruise":  190
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

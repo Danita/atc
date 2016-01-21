@@ -1,0 +1,34 @@
+{
+  "name": "Embraer 190/195",
+  "icao": "E190",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": 7,
+    "recat": "D"
+  },
+  "rate": {
+    "ascent":     1900,
+    "descent":    2100,
+    "accelerate": 7,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 1.5,
+    "landing": 1.2
+  },
+  "speed":{
+    "min":     110,
+    "max":     250,
+    "landing": 120,
+    "cruise":  200
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

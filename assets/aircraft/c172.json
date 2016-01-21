@@ -1,0 +1,34 @@
+{
+  "name": "Cessna 172 Skyhawk",
+  "icao": "C172",
+  "engines": {
+    "number": 1,
+    "type": "P"
+  },
+  "weightclass": "S",
+  "category": {
+    "srs": 1,
+    "lahso": 1,
+    "recat": "F"
+  },
+  "rate": {
+    "ascent":     730,
+    "descent":    1460,
+    "accelerate": 4,
+    "decelerate": 3
+  },
+  "runway": {
+    "takeoff": 0.300,
+    "landing": 0.152
+  },
+  "speed":{
+    "min":     50,
+    "max":     145,
+    "landing": 65,
+    "cruise":  122
+  },
+  "capability": {
+    "ils": false,
+    "fix": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Let 410",
+  "icao": "L410",
+  "engines": {
+    "number": 2,
+    "type": "T"
+  },
+  "weightclass": "S+",
+  "category": {
+    "srs": 2,
+    "lahso": null,
+    "recat": "F"
+  },
+  "rate": {
+    "ascent":     1700,
+    "descent":    2500,
+    "accelerate": 8,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 1.2,
+    "landing": 1.8
+  },
+  "speed":{
+    "min":     100,
+    "max":     250,
+    "landing": 110,
+    "cruise":  190
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

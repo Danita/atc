@@ -1,0 +1,34 @@
+{
+  "name": "Antonov 124 Ruslan",
+  "icao": "A124",
+  "engines": {
+    "number": 4,
+    "type": "J"
+  },
+  "weightclass": "H",
+  "category": {
+    "srs": 3,
+    "lahso": null,
+    "recat": "B"
+  },
+  "rate": {
+    "ascent":     1000,
+    "descent":    2000,
+    "accelerate": 4,
+    "decelerate": 2
+  },
+  "runway": {
+    "takeoff": 3.3,
+    "landing": 3.7
+  },
+  "speed":{
+    "min":     145,
+    "max":     250,
+    "landing": 160,
+    "cruise":  200
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

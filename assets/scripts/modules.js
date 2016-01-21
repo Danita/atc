@@ -1,3 +1,4 @@
+var zlsa = {atc: {}};
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
@@ -5,6 +6,9 @@
 var MODULES=[
   "-util",
   "-animation",
+
+  "speech",
+
   "get",
 
   "tutorial",
@@ -28,7 +32,7 @@ var MODULES=[
 ];
 
 // saved as prop.version and prop.version_string
-var VERSION=[2,1,3];
+var VERSION=[2, 1, 8];
 
 // are you using a main loop? (you must call update() afterward disable/reenable)
 var UPDATE=true;
@@ -81,8 +85,8 @@ var LOG_FATAL=4;
 
 var log_strings={
   0:"DEBUG",
-  1:"INFO ",
-  2:"WARN ",
+  1:"INFO",
+  2:"WARN",
   3:"ERROR",
   4:"FATAL",
 };
@@ -254,9 +258,15 @@ function update() {
     call_module("*","complete");
     prop.complete=true;
   }
-  call_module("*","update_pre");
-  call_module("*","update");
-  call_module("*","update_post");
+//  call_module("*","update_pre");
+//  call_module("*","update");
+//  call_module("*","update_post");
+
+  game_update_pre();
+  aircraft_update();
+
+  canvas_update_post();
+
   if(UPDATE)
     requestAnimationFrame(update);
   prop.time.frames+=1;

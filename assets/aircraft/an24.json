@@ -1,0 +1,35 @@
+{
+  "name": "Antonov 24",
+  "icao": "AN24",
+  "engines": {
+    "number": 2,
+    "type": "T"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": null,
+    "recat": "D"
+  },
+  "rate": {
+    "turn":       1.0,
+    "ascent":     1800,
+    "descent":    2000,
+    "accelerate": 6,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 1.6,
+    "landing": 1.4
+  },
+  "speed":{
+    "min":     125,
+    "max":     249,
+    "landing": 130,
+    "cruise":  250
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

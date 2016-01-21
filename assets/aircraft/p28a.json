@@ -1,0 +1,34 @@
+{
+  "name": "Piper PA-28 Cherokee",
+  "icao": "P28A",
+  "engines": {
+    "number": 1,
+    "type": "P"
+  },
+  "weightclass": "S",
+  "category": {
+    "srs": 1,
+    "lahso": 1,
+    "recat": "F"
+  },
+  "rate": {
+    "ascent":     660,
+    "descent":    1320,
+    "accelerate": 4,
+    "decelerate": 3
+  },
+  "runway": {
+    "takeoff": 0.275,
+    "landing": 0.130
+  },
+  "speed":{
+    "min":     50,
+    "max":     123,
+    "landing": 65,
+    "cruise":  108
+  },
+  "capability": {
+    "ils": false,
+    "fix": false
+  }
+}

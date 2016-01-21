@@ -1,0 +1,210 @@
+{
+  "name": "Aeroporto Internacional de São Paulo/Guarulhos",
+  "level": "beginner",
+  "radio": "Guarulhos",
+  "icao": "SBGR",
+  "iata": "GRU",
+  "magnetic_north": 0,
+  "ctr_radius": 80,
+  "position": ["S23.253020", "W46.265706"],
+  "rr_radius_nm": 5.0,
+  "rr_center": ["S23.253020", "W46.265706"],
+  "has_terrain": false,
+  "wind": {
+    "angle": 50,
+    "speed": 10
+  },
+  "fixes": {
+    "BCO":   ["S23.242776", "W46.231378"],
+    "CGO":   ["S23.373890", "W46.391670"],
+    "PUKEM": ["S23.334979", "W47.022376"],
+    "ISIMU": ["S23.311403", "W46.201945"],
+    "MUPIP": ["S22.495734", "W47.224104"],
+    "RCL":   ["S22.254870", "W47.334480"],
+    "SCB":   ["S23.302540", "W47.224160"],
+    "LOLAG": ["S23.492519", "W47.174109"],
+    "NIBGA": ["S24.044380", "W47.142280"],
+    "GR502": ["S22.570523", "W46.341130"],
+    "BGC":   ["S22.483130", "W46.373860"],
+    "VULET": ["S23.160290", "W45.443180"],
+    "SJC":   ["S23.144686", "W45.511479"],
+    "DORLU": ["S23.204940", "W45.185650"],
+    "USAMO": ["S22.413350", "W45.493300"],
+
+    "VUKIK": ["S23.505661", "W45.384127"],
+    "ILSOR": ["S23.452040", "W46.204980"],
+    "KOVLA": ["S23.202553", "W46.295810"],
+    "ANSUG": ["S23.162575", "W46.163086"],
+    "ANISE": ["S24.360780", "W46.373120"],
+    "SIPUK": ["S24.173120", "W46.263660"],
+    "TOGES": ["S23.550180", "W45.572520"],
+    "TBE": ["S23.024430", "W45.310020"],
+    "EVSOV": ["S23.173150", "W45.572010"],
+    "VURAK": ["S23.205681", "W46.100957"],
+    "SAT": ["S23.585930", "W46.154800"],
+    "MOXEP": ["S22.244660", "W46.172020"],
+    "IBDIK": ["S22.574980", "W46.164800"],
+
+    "TUCA": ["S23.280589", "W46.342423"],
+    "UTKET": ["S23.29934", "W46.395268"],
+
+    "MARPU": ["S23.234737", "W46.412128"],
+    "GR061": ["S23.221180", "W46.355490"],
+    "KOVLA": ["S23.202550", "W46.295810"]
+  },
+
+  "runways": [
+    {
+      "name": ["9L", "27R"],
+      "name_offset": [[0,-0.2], [0, -0.2]],
+      "end": [["S23.254000", "W46.265706"], ["S23.261459", "W46.285706"]],
+      "length": 3.700,
+      "delay": [10, 50],
+      "ils": [true, true]
+    },
+    {
+      "name": ["9R", "27L"],
+      "name_offset": [[0, 0.2], [0, 0.2]],
+      "end": [["S23.255228", "W46.273188"], ["S23.261967", "W46.291330"]],
+      "length": 2.900,
+      "delay": [15, 60],
+      "ils": [true, false]
+    }
+  ],
+
+  "departures": {
+    "airlines": [
+      ["TAM", 60],
+      ["GLO", 60],
+      ["AZU", 30],
+      ["EMBRAER", 3],
+      ["UPS", 1],
+      ["FDX", 1],
+      ["ACA/long", 2],
+      ["AAL/long", 5],
+      ["SA-AEA", 2],
+      ["SA-AFR", 5],
+      ["SA-AMX", 2],
+      ["SA-AVA", 2],
+      ["SA-AZA", 4],
+      ["SA-BAW", 5],
+      ["SA-CCA", 2],
+      ["SA-DLH", 5],
+      ["SA-IBE", 5],
+      ["SA-KAL", 1],
+      ["SA-KLM", 3],
+      ["SA-LAN", 7],
+      ["SA-UAE", 3],
+      ["SA-UAL", 5],
+      ["FAB", 1]
+    ],
+    "sids": {
+      "MUPIP": ["BCO", "ISIMU", "CGO", "PUKEM", "MUPIP"],
+      "LOLAG": ["BCO", "ISIMU", "CGO", "LOLAG"],
+      "NIBGA": ["BCO", "ISIMU", "CGO", "NIBGA"],
+      "BGC":   ["BCO", "GR502", "BGC"],
+      "USAMO": ["BCO", "SJC", "USAMO"],
+      "DORLU": ["BCO", "VULET", "DORLU"]
+    },
+    "destinations": [
+      72, 83, 355, 225, 253, 272
+    ],
+    "frequency": [1, 15]
+  },
+  "arrivals":[
+    {
+      "radial": 20,
+      "heading": 200,
+      "speed":    250,
+      "fixes":   ["MOXEP", "IBDIK"],
+      "airlines": [
+        ["TAM", 3],
+        ["GLO", 3],
+        ["AZU", 2],
+        ["EMBRAER", 1],
+        ["UPS", 1],
+        ["FDX", 1],
+        ["ACA/long", 1],
+        ["AAL/long", 1],
+        ["SA-AEA", 1],
+        ["SA-AFR", 1],
+        ["SA-AMX", 1],
+        ["SA-AVA", 1],
+        ["SA-AZA", 1],
+        ["SA-BAW", 1],
+        ["SA-CCA", 1],
+        ["SA-DLH", 1],
+        ["SA-IBE", 1],
+        ["SA-KAL", 1],
+        ["SA-KLM", 1],
+        ["SA-LAN", 1],
+        ["SA-UAE", 1],
+        ["SA-UAL", 1],
+        ["FAB", 1]
+      ],
+      "frequency": [15, 20],
+      "altitude": [7000, 8000]
+    },
+        {
+      "radial": 90,
+      "heading": 270,
+      "fixes":   ["VUKIK", "TOGES", "SAT"],
+      "airlines": [
+        ["TAM", 3],
+        ["GLO", 3],
+        ["AZU", 3],
+        ["ONE", 3],
+        ["FAB", 1]
+      ],
+      "frequency": [15, 30],
+      "altitude": [6000, 8000]
+    },
+    {
+      "radial": 180,
+      "heading": 360,
+      "fixes":   ["ANISE", "SIPUK", "SAT"],
+      "airlines":[
+        ["TAM", 3],
+        ["GLO", 3],
+        ["AZU", 3],
+        ["ONE", 2],
+        ["FAB", 1]
+      ],
+
+      "frequency": [15, 30],
+      "altitude": [5000, 8000]
+    },
+    {
+      "radial": 340,
+      "heading": 160,
+       "fixes":   ["MOXEP", "IBDIK"],
+      "airlines": [
+        ["TAM", 3],
+        ["GLO", 3],
+        ["AZU", 2],
+        ["EMBRAER", 1],
+        ["UPS", 1],
+        ["FDX", 1],
+        ["ACA/long", 1],
+        ["AAL/long", 1],
+        ["SA-AEA", 1],
+        ["SA-AFR", 1],
+        ["SA-AMX", 1],
+        ["SA-AVA", 1],
+        ["SA-AZA", 1],
+        ["SA-BAW", 1],
+        ["SA-CCA", 1],
+        ["SA-DLH", 1],
+        ["SA-IBE", 1],
+        ["SA-KAL", 1],
+        ["SA-KLM", 1],
+        ["SA-LAN", 1],
+        ["SA-UAE", 1],
+        ["SA-UAL", 1],
+        ["FAB", 1]
+      ],
+      "frequency": [10, 30],
+      "altitude": [9000, 10000]
+    }
+  ]
+}

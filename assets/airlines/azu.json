@@ -1,0 +1,13 @@
+{
+  "name": "Azul Linhas Aereas",
+  "callsign": {
+    "name": "Azul",
+    "length": 3
+  },
+  "aircraft": [
+    ["A332", 7 ],
+    ["E190", 85 ],
+    ["AT43", 3 ],
+    ["AT72", 55 ]
+  ]
+}
